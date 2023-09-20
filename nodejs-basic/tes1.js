@@ -31,5 +31,3 @@ class Car {
       return `${this.brand}-${Math.floor(Math.random() * 1000)}`;
     }
   }
-
-console.log(Car.drive());
